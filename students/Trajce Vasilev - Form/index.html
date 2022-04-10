@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Simple Form</title>
+</head>
+
+<body">
+  <h1>Едноставен формулар за регистрација</h1>
+  <form name='registration'>
+    <ul>
+      <li><label for="userid">ID на Корисник:</label></li>
+      <li><input type="text" name="userid" size="12" /></li>
+      <li><label for="passid">Лозинка:</label></li>
+      <li><input type="password" name="passid" size="12" /></li>
+      <li><label for="username">Име:</label></li>
+      <li><input type="text" name="username" size="50" /></li>
+      <li><label for="address">Адреса:</label></li>
+      <li><input type="text" name="address" size="50" /></li>
+      <li><label for="country">Држава:</label></li>
+      <li><select name="country">
+          <option selected="" value="Default">(Одберете ја државата)</option>
+          <option>Македонија</option>
+          <option>Србија</option>
+          <option>Албанија</option>
+          <option>Хрватска</option>
+          <option>Словенија</option>
+        </select></li>
+      <li><label for="zip">Поштенски Код:</label></li>
+      <li><input type="text" name="zip" /></li>
+      <li><label for="email">Мејл:</label></li>
+      <li><input type="text" name="email" size="50" /></li>
+      <li><label id="gender">Пол:</label></li>
+      <li><input type="radio" name="msex" value="Male" /><span>Машко</span></li>
+      <li><input type="radio" name="fsex" value="Female" /><span>Женско</span></li>
+      <li><label>Јазик:</label></li>
+      <li><input type="checkbox" name="en" value="en" checked /><span>Македонски</span></li>
+      <li><input type="checkbox" name="nonen" value="noen" /><span>Англиски</span></li>
+      <li><label for="desc">Повеќе информации:</label></li>
+      <li><textarea name="desc" id="desc"></textarea></li>
+      <li><input type="submit" name="submit" value="Прикачете" /></li>
+    </ul>
+  </form>
+  </body>
+
+</html>
