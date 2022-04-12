@@ -1,0 +1,28 @@
+/* body {
+    background-color: red;
+} */
+
+h2 {
+    color: burlywood;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+#hello-title {
+    color:maroon;
+    font-size: 60px;
+    text-decoration: line-through;
+}
+
+h4 {
+    color: green;
+    font-size: 69px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+p {
+    color:chocolate;
+    font-size: 24px;
+    font-style: italic;
+}
