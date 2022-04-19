@@ -1,15 +1,15 @@
-body{
+body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-ul{
-    margin-top:0;
+ul {
+    margin-top: 0;
 }
 
-header{
+header {
     width: 100%;
     background-color: #ddd;
 }
@@ -18,7 +18,7 @@ header *+* {
     display: inline-block;
 }
 
-a{
+a {
     display: inline-block;
     margin: 30px;
     padding: 30px;
@@ -31,7 +31,7 @@ a{
 
 
 
-.header__logo{
+.header__logo {
     display: inline-block;
     margin-right: 21em;
     font-weight: 100;
@@ -42,33 +42,34 @@ a{
     padding-left: 40px;
     text-align: start;
 }
-.content__header-left{
+
+.content__header-left {
     float: left;
     font-weight: 800;
     margin-right: 5em;
 }
 
-.content__header-right{
+.content__header-right {
     float: right;
 }
 
-.content__paragraph{
+.content__paragraph {
     font-size: 1.3em;
     width: 20ch;
 }
 
-.featured{
+.featured {
     font-weight: 100;
     padding: 80px 150px 80px 50px;
     background-color: #aaa;
-    width: 15ch;    
+    width: 15ch;
 }
 
-.dots{
+.dots {
     margin-right: -16em;
 }
 
-span{
+span {
     display: inline-block;
     padding: .5em;
     margin: 1em 0 0 1em;
@@ -76,15 +77,17 @@ span{
     border-radius: 100%;
 }
 
-.services{
+.services {
     margin: 2em 4em;
 }
 
-.service,.recent-work,.twitter{
+.service,
+.recent-work,
+.twitter {
     display: inline-block;
 }
 
-.service{
+.service {
     padding: 91.5px;
     aspect-ratio: 1 / 1;
     margin: .3em;
@@ -92,45 +95,45 @@ span{
 }
 
 
-.work{
+.work {
     margin: 2em 4em;
 }
 
-.recent-work{
+.recent-work {
     width: 5ch;
     padding: 100px;
     margin: 0 .3em;
     background-color: #aaa;
 }
 
-.twitter{
+.twitter {
     background-color: #aaa;
     padding: 20px;
     padding-left: 2em;
     width: 710px;
 }
 
-.twitter__heading{
+.twitter__heading {
     font-weight: 100;
     text-align: start;
 
 }
 
-.list{
+.list {
     background-color: #aaa;
 }
 
-.ul__list{
-    margin: 1em 0 0 0 ;
+.ul__list {
+    margin: 1em 0 0 0;
 
 }
 
-.link{
+.link {
     display: inline-block;
     padding: 25px;
     margin-right: 3em;
 }
 
-.copyright{
+.copyright {
     display: inline-block;
 }

@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #eee;
     width: min(80%, 1000px);
     margin: 50px auto;
@@ -6,14 +6,14 @@ body{
     padding: 0;
 }
 
-h1{
+h1 {
     margin: 0 0 0 10px;
     padding-top: 10px;
     font-size: 1.8em;
     font-weight: 100;
 }
 
-a{
+a {
     display: inline-block;
     margin: 30px;
     padding: 30px;
@@ -24,32 +24,39 @@ a{
     font-weight: 900;
 }
 
-.logo,.nav,.header-main{
-    margin-bottom:10px;
+.logo,
+.nav,
+.header-main {
+    margin-bottom: 10px;
 }
-.nav,.header-main,.sidebar,.body-area,footer{
+
+.nav,
+.header-main,
+.sidebar,
+.body-area,
+footer {
     text-align: center;
 }
 
 
-.logo{
-  height: 90px;
-  background-color: #aaa;
+.logo {
+    height: 90px;
+    background-color: #aaa;
 }
 
-.nav{
+.nav {
     height: 50px;
     background-color: #aaa;
 
 }
 
-.header-main{
+.header-main {
     height: 150px;
     background-color: #aaa;
 
 }
 
-.sidebar{
+.sidebar {
     width: 30%;
     aspect-ratio: 1 / 2;
     background-color: #aaa;
@@ -57,7 +64,7 @@ a{
     margin-right: 5px;
 }
 
-.body-area{
+.body-area {
     display: inline-block;
     width: 68.9%;
     aspect-ratio: 1 / .875;
@@ -65,9 +72,8 @@ a{
     background-color: #aaa;
 }
 
-footer{
+footer {
     height: 50px;
     background-color: #aaa;
 
 }
-

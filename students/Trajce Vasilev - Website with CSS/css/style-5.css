@@ -1,17 +1,17 @@
-body{
+body {
     background-color: #eee;
-    width:min(90%,1000px);
+    width: min(90%, 1000px);
     margin: 50px auto;
     font-family: Verdana, sans-serif;
     text-align: center;
 }
 
-h1{
+h1 {
     font-size: 24px;
     font-weight: 100;
 }
 
-a{
+a {
     display: inline-block;
     margin: 30px;
     padding: 30px;
@@ -22,34 +22,36 @@ a{
     font-weight: 900;
 }
 
-.logo-nav{
+.logo-nav {
     background-color: #aaa;
     width: 90%;
     height: 80px;
-    margin:0 auto;
+    margin: 0 auto;
     padding-inline: 20px;
 }
 
-.logo,.nav{
+.logo,
+.nav {
     display: inline-block;
 }
 
-.logo{
+.logo {
     float: left;
 }
-.nav{
+
+.nav {
     float: right;
 }
 
-span{
-    margin:20px;
+span {
+    margin: 20px;
     width: 200px;
     height: 150px;
     display: inline-block;
     background-color: #aaa;
 }
 
-.box{
+.box {
     width: 28%;
     aspect-ratio: 1.3 / 1;
     margin: 20px;
@@ -57,7 +59,7 @@ span{
     background-color: #aaa;
 }
 
-footer{
+footer {
     height: 40px;
     width: 93%;
     margin-inline: auto;
