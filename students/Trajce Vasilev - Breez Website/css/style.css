@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto','sans-serif';
+}
+
+body {
+    max-height: 100%;
+    max-width: 100%;
+    margin: 1rem;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: hsl(223, 31%, 82%);
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1.7rem 0;
+}
+h1,h2,li,a{
+    color: hsl(0, 5%, 20%);
+}
+
+p,span{
+    color: hsl(0, 5%, 30%);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padding{
+    padding-bottom: 10rem;
+}
+
+.white-bg{
+    background-color: hsl(0, 0%, 95%);
+}
+
+.bright-red{
+    background-color: hsl(6, 70%, 70%);
+}
+
+.content-wrapper {
+    max-width: calc(100%);
+    margin: 0;
+    align-items: start;
+    position: relative;
+}
+
+.content-text {
+    min-width: 50%;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.content__heading {
+    text-align: start;
+    max-width: 15ch;
+}
+
+
+.content__paragraph {
+    text-align: start;
+    max-width: 35ch;
+    margin: 2rem 0 3rem 0;
+}
+
+.content-img {
+    max-width: 100%;
+}
+
+.burger-menu{
+    display: grid;
+    padding: .5rem;
+    margin-top: -1.5rem;
+    justify-items:center;
+    line-height:.5;
+    font-weight: 800;
+}
+
+
+.section-main {
+    max-width: 100%;
+    margin-bottom: 4rem;
+}
+
+
+.main-nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style-type: none;
+}
+
+.main-nav-link {
+    text-decoration: none;
+    color: #000;
+    margin: 1rem;
+}
+
+.logo {
+    flex: 1 0 auto;
+}
+
+.nav__btn {
+    padding: .7rem 3.5rem;
+    border-radius: 100px;
+    border: none;
+    background-color: hsl(6, 70%, 70%);
+    color: #fff;
+    transition: all .2s;
+}
+
+.nav__btn:hover {
+    background-color: hsl(6, 70%, 58%);
+    color: #fff;
+    cursor: pointer;
+}
+
+.main__btn {
+    padding: .7rem 3.5rem;
+    border-radius: 100px;
+    border: none;
+    background-color: hsl(253, 20%, 19%);
+    color: #fff;
+    transition: all .2s;
+}
+
+.main__btn:hover {
+    background-color: hsl(253, 20%, 10%);
+    color: #fff;
+    cursor: pointer;
+}
+
+#section-experience {
+    max-width: 100%;
+    margin-bottom: 5rem;
+    flex-direction: column;
+}
+
+.experience-paragraph {
+    max-width: 50ch;
+    text-align: center;
+    line-height: 1;
+    margin: 1.5rem 0 2rem 0;
+}
+
+
+.experience__box {
+    max-width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.experience__heading {
+    font-size: 1.6rem;
+}
+
+
+.three {
+    margin: 1.5rem 0 4rem 0;
+}
+
+.experience__paragraph-box {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+.together__img-container{
+    max-width: 60%;
+    margin: 9.1rem 0;
+}
+
+.together__paragraph-headline{
+    text-transform: capitalize;
+    margin: 1rem 0 2rem 0;
+    max-width: 30ch;
+    text-align: start;
+}
+
+.together__btn {
+    padding: .7rem 3.5rem;
+    border-radius: 100px;
+    border: none;
+    background-color: hsl(253, 20%, 19%);
+    color: #fff;
+    transition: all .2s;
+}
+
+.together__btn:hover {
+    background-color: hsl(253, 20%, 10%);
+    color: #fff;
+    cursor: pointer;
+}
+
+.content-left__our-plans{
+    padding:11.2rem;
+}
+
+.trial{
+    color:hsl(6, 70%, 58%);
+}
+
+
+.content-plans{
+    max-width: calc(100%);
+    padding: 9.2rem 9.2rem 5rem 10rem;
+    margin-left: 5.2rem;
+}
+
+.plans-payment__box{
+    background-color: hsl(253, 20%, 19%);
+    border-radius: .4rem;
+    margin: 2rem .5rem;
+    padding: 7rem 2rem 5rem 2rem;
+    min-width: 200px;
+    text-align: center;
+}
+
+
+.payment-box__heading{
+    color: hsl(253, 20%, 70%);;
+    font-size:1.5rem;
+    overflow-wrap:normal;
+    border-bottom: 1px solid #fff;
+    margin: -4rem 0 1rem 0;
+}
+
+.payment-box__paragraph{
+    text-align: center;
+    margin: 2rem 0 3rem 0;
+    color:hsl(253, 20%, 70%);
+}
+
+.payment{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.dollar{
+    font-size: 1rem;
+    font-weight: 500;
+    color:hsl(6, 70%, 58%);
+}
+
+.amount{
+    font-size: 5rem;
+    font-weight: 800;
+    color:hsl(6, 70%, 58%);
+}
+
+.btn__see-more{
+    margin-top: 3.5rem;
+    padding: .7rem 3.5rem;
+    border-radius: 100px;
+    border: 1px solid hsl(253, 20%, 90%);
+    background-color: inherit;
+    color: #fff;
+    transition: all .2s;
+}
+
+
+.btn__see-more:hover {
+    background-color: hsl(253, 25%, 45%);
+    color: #000;
+    cursor: pointer;
+}
